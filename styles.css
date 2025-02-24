@@ -117,7 +117,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 80px 240px;
+    padding: 120px 240px 80px;
 }
 
 .quote {
@@ -133,4 +133,35 @@ body {
     margin-top: 0;
     font-weight: 700;
     font-size: 20px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 80px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 120px;
+    border-radius: 12px;
+    gap: 120px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.left-cta h4 {
+    font-size: 20px;
+    padding: 0 0 4px;
+}
+
+.left-cta h4, .left-cta p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
 }
