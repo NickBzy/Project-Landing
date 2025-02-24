@@ -76,6 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 24px;
 }
 
 .container-two h3 {
@@ -110,4 +111,26 @@ body {
 .card p {
     color: rgb(111, 114, 122);
     margin-top: 8px;
+}
+
+.container-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 240px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.credits {
+    margin-left: auto;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 20px;
 }
