@@ -25,8 +25,48 @@ body {
     padding-top: 4px;
 }
 
-.header-links a {
+.header-links a, .left-side p {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 16px;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1F2937;
+    padding: 80px 168px 120px;
+    gap: 24px;
+}
+
+.left-side h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.left-side p {
+    margin-top: 4px;
+}
+
+.register {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.right-side {
+    display: flex;
+    color: #E5E7EB;
+    background-color: rgb(111, 114, 122);
+    width: 720px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
